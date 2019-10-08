@@ -16,7 +16,7 @@ int main(){
 
     list_insert_begin(L, 2);
 
-    printf("----BEFORE REMOVE ELEMENTS----\n");
+    printf("----BEFORE REMOVING ELEMENTS----\n");
     list_print(L);
 
     list_remove(L, 2);
@@ -24,7 +24,7 @@ int main(){
     list_remove(L, 60);
     list_remove(L, 30);
 
-    printf("----AFTER REMOVE ELEMENTS----\n");
+    printf("----AFTER REMOVING ELEMENTS----\n");
     list_print(L);
     
     list_destroy(L);
